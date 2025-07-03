@@ -1,5 +1,5 @@
 ---
-author: Sat Naing
+author: Tommy
 pubDatetime: 2022-09-25T15:20:35Z
 modDatetime: 2025-06-13T16:46:34.155Z
 title: Customizing AstroPaper theme color schemes
@@ -24,7 +24,7 @@ AstroPaper theme will include light and dark mode by default. In other words, th
 ```js file="src/config.ts"
 export const SITE = {
   website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
+  author: "Tommy",
   profile: "https://satnaing.dev/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "AstroPaper",
