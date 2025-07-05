@@ -8,8 +8,7 @@ featured: false
 draft: false
 tags:
   - hello-world
-description:
-  Hello World!
+description: Hello World!
 ---
 
 Hello World!
