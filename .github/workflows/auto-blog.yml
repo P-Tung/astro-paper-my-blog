@@ -31,11 +31,11 @@ jobs:
         run: |
           cd .github/scripts
           npm init -y
-          npm install openai
+          npm install @google/generative-ai
 
       - name: Generate blog post
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           cd .github/scripts
           node generate-blog.js
